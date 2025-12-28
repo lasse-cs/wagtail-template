@@ -16,7 +16,7 @@ node_modules/
 *.sqlite3
 
 # Local settings overrides
-src/{{ project_name }}/settings/local.py
+**/settings/local.py
 
 # Editor files
 .vscode/
@@ -31,4 +31,4 @@ docker/.secrets
 /src/media/
 
 # Built static files
-/src/{{ project_name }}/static/js/
+/src/static_built

@@ -1,7 +1,4 @@
 {
-  "name": "{{ project_name }}",
-  "version": "0.0.1",
-  "description": "JavaScript for {{ project_name }}",
   "scripts": {
     "build": "vite build",
     "build-watch": "vite build --watch"

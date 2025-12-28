@@ -7,7 +7,7 @@ from wagtail.admin import urls as wagtailadmin_urls
 from wagtail import urls as wagtail_urls
 from wagtail.documents import urls as wagtaildocs_urls
 
-from project_name.views import error_500_test
+from {{ project_name }}.views import error_500_test
 
 urlpatterns = [
     path("django-admin/", admin.site.urls),

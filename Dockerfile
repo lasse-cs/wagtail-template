@@ -64,6 +64,6 @@ ADD --chown=wagtail:wagtail ./src /app
 USER wagtail
 
 # Copy the build JS from the previous stage
-COPY --from=build-static --chown=wagtail:wagtail /app/src/{{ project_name }}/static/js/ /app/{{ project_name }}/static/js/
+COPY --from=build-static --chown=wagtail:wagtail /app/src/static_built/ /app/static_built/
 
 CMD ["gunicorn", "--bind", ":8000", "{{ project_name }}.wsgi:application"]
