@@ -12,7 +12,7 @@ export default defineConfig({
         },
     },
     build: {
-        outDir: resolve(__dirname, "src/{{ project_name }}/static/js"),
+        outDir: resolve(__dirname, "src/static_built/js"),
         rollupOptions: {
             input: {
                 main: resolve(__dirname, "src/static_src/js/main.js"),
