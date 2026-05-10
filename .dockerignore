@@ -52,3 +52,4 @@ compose.yaml
 .ruff_cache/
 .pytest_cache/
 .github/
+Procfile

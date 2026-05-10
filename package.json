@@ -1,10 +1,11 @@
 {
   "scripts": {
     "build": "vite build",
-    "build-watch": "vite build --watch"
+    "build-watch": "vite build --watch",
+    "dev": "vite"
   },
   "devDependencies": {
-    "vite": "^7.3.1"
+    "vite": "^7.3.3"
   },
   "dependencies": {
   }
