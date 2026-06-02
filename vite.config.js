@@ -20,7 +20,7 @@ export default defineConfig({
     build: {
         manifest: true,
         outDir: resolve(__dirname, "src/static_built/"),
-        rollupOptions: {
+        rolldownOptions: {
             input: {
                 main: resolve(__dirname, "src/static_src/js/main.js"),
             },
@@ -28,8 +28,6 @@ export default defineConfig({
                 entryFileNames: `js/[name].js`,
                 chunkFileNames: `js/[name].js`,
                 assetFileNames: `css/[name].css`,
-                manualChunks: {
-                },
             },
         },
     },
